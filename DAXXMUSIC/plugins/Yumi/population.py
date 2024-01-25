@@ -4,7 +4,7 @@ import requests
 from DAXXMUSIC import app
 
 
-@app.on_message(filters.command("population"))
+@app.on_message(filters.command("population","pop"))
 def country_command_handler(client: Client, message: Message):
     # Extract the country code from the command
     country_code = message.text.split(maxsplit=1)[1].strip()
