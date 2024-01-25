@@ -68,16 +68,16 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="ᴅᴇᴠ 💕",
+                text="SUPPORT",
 
-                url=f"t.me/{OWNER_USERNAME}",
+                url=f"t.me/CDX_WORLD",
 
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="GROUP",
 
-                url=f"{SUPPORT_CHAT}",
+                url=f"t.me/TEAM_CDX",
 
             ),
         ],
@@ -97,16 +97,16 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="ᴅᴇᴠ 💕",
+                text="SUPPORT",
 
-                url=f"t.me/{OWNER_USERNAME}",
+                url=f"t.me/CDX_WORLD",
 
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="GROUP",
 
-                url=f"{SUPPORT_CHAT}",
+                url=f"t.me/TEAM_CDX",
 
             ),
         ],
