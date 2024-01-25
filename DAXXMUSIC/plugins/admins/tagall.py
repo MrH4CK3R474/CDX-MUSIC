@@ -135,7 +135,7 @@ TAGMES = [ " 𝐎𝐲𝐲 𝐭𝐞𝐫𝐞 𝐛𝐚𝐥𝐞 𝐤𝐨 𝐣𝐚�
 
            ]
 
-@app.on_message(filters.command(["gtag" , "mgali" ], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["gtag" , "mgali", "atag" ], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
