@@ -37,9 +37,7 @@ async def start(_, msg):
               ],
                [
                 InlineKeyboardButton("🎃 𝗢𝗣 𝗖𝗗𝗫 🎃", url="https://t.me/OP_CODEX"),
-
-        ]
-    ]
+               ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
