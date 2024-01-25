@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "",
-        "value": "",
+        "value": "24133469",
         "required": true
       },
       "API_HASH": {
         "description": "",
-        "value": "",
+        "value": "66ba01653d5077ea870fac575ba978b7",
         "required": true
       },
       "BOT_TOKEN": {
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "",
-        "value": "",
+        "value": "mongodb+srv://Helluser:a2acmMGdDK178lm7@titanhell.f4zbiln.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "",
-        "value": "",
+        "value": "5129320633",
         "required": true
       },
       "STRING_SESSION": {
