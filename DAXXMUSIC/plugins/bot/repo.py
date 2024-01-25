@@ -28,12 +28,15 @@ async def start(_, msg):
 ],
              [
               InlineKeyboardButton("🎃 𝗠𝗜𝗟𝗞𝗬 𝗪𝗔𝗬 🎃", url=f"https://MILKY_WAY_45"),
+             ],
               [
                InlineKeyboardButton("🎃 𝗢𝗫𝗬 𝗦𝗧𝗢𝗥𝗘 🎃", url=f"https://t.me/OXY474_STORE"),
+              ],
                [
                 InlineKeyboardButton("🎃 𝗢𝗣 𝗖𝗗𝗫 🎃", url="https://t.me/OP_CODEX"),
 
-        ]]
+        ]
+    ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
