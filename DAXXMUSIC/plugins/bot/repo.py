@@ -4,9 +4,9 @@ from DAXXMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя 𝑱𝑨𝑹𝑽𝑰𝑺 яєρσѕ ✪
+✪ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ✪
  
- ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ ➲ ⚡ 𝗝𝗢𝗜𝗡 𝗙𝗔𝗦𝗧 💖✰
  
  ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
  
@@ -26,49 +26,29 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("💞 𝗞𝗜𝗗𝗡𝗔𝗣𝗘 💞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/BWANDARLOK"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/jarvis2O"),
+          InlineKeyboardButton("🎃 𝗖𝗢𝗗𝗘𝗫 🎃", url="https://t.me/BWANDARLOK"),
+          InlineKeyboardButton("🎃  𝗕𝗔𝗪𝗔𝗡𝗗𝗔𝗥𝗟𝗢𝗞 🎃", url="https://t.me/jarvis2O"),
           ],
                [
-                InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/OXY474_STORE"),
+                InlineKeyboardButton("🎃 𝗨𝗣𝗗𝗔𝗧𝗘 🎃", url="https://t.me/BOT_WORLD"),
 
 ],
-[
-              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://github.com/PRADHAN474/BANALLBOT"),
-              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/doraemon890/jarvisXmusic"),
-              ],
+             [
+              InlineKeyboardButton("🎃 𝗠𝗜𝗟𝗞𝗬 𝗪𝗔𝗬 🎃", url=f"https://MILKY_WAY_45"),
               [
-              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://github.com/PRADHAN474/managerbot"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/PRADHAN474/Oxychatbot"),
-],
-[
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://github.com/doraemon890/jarvisXsession-for-both-pyro"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧𝗚𝗣𝗧", url=f"https://github.com/DAXXTEAM/DAXXCHATGPT"),
-],
-[
-              InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://github.com/DAXXTEAM/Kaali-Linux"),
-              InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://github.com/DAXXTEAM/DAXXMOVIEBOT"),
-              ],
-              [
-              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗕𝗢𝗧 𝗩2", url=f"https://github.com/doraemon890/JarvisStringSessionBot"),
-InlineKeyboardButton("𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧", url=f"https://github.com/PRADHAN474/BROADCAST"),
-],
-[
-InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/PRADHAN474/OXYUSERBOT"),
-InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/SEARCH_BOT"),
-],
-[
-InlineKeyboardButton("𝗔𝗟 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧", url=f"https://github.com/doraemon890/Jarvis-X-spam"),
+               InlineKeyboardButton("🎃 𝗢𝗫𝗬 𝗦𝗧𝗢𝗥𝗘 🎃", url=f"https://t.me/OXY474_STORE"),
+               [
+                InlineKeyboardButton("🎃 𝗢𝗣 𝗖𝗗𝗫 🎃", url="https://t.me/OP_CODEX"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+        photo="https://te.legra.ph/file/13bff2addf14807e934ee.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
