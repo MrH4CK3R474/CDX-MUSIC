@@ -48,7 +48,7 @@ async def start(_, msg):
         caption=start_txt,
         reply_markup=reply_markup
     )
-@app.on_message(filters.command("group", prefixes="#"))
+@app.on_message(filters.command("group", prefixes="#", "/", "!", "."))
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
