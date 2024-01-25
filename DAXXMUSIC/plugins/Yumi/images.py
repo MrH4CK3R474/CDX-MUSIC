@@ -4,7 +4,7 @@ from DAXXMUSIC import app
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 
-@app.on_message(filters.command(["image"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
+@app.on_message(filters.command(["image","img","pic"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
 async def pinterest(_, message):
      chat_id = message.chat.id
 
@@ -18,12 +18,12 @@ async def pinterest(_, message):
      media_group = []
      count = 0
 
-     msg = await message.reply(f"sᴄʀᴀᴘɪɴɢ ɪᴍᴀɢᴇs ғʀᴏᴍ ᴘɪɴᴛᴇʀᴇᴛs...")
-     for url in images["images"][:6]:
+     msg = await message.reply(f"𝘎𝘦𝘯𝘦𝘳𝘢𝘵𝘪𝘯𝘨 𝘐𝘮𝘨")
+     for url in images["images"][:5]:
                   
           media_group.append(InputMediaPhoto(media=url))
           count += 1
-          await msg.edit(f"=> ᴏᴡᴏ sᴄʀᴀᴘᴇᴅ ɪᴍᴀɢᴇs {count}")
+          await msg.edit(f"=> 𝘎𝘦𝘯𝘦𝘳𝘢𝘵𝘪𝘯𝘨 𝘐𝘮𝘨 {count}")
 
      try:
         
