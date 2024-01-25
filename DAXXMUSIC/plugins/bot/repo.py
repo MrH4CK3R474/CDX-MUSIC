@@ -2,6 +2,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from DAXXMUSIC import app
 from config import BOT_USERNAME
+from DAXXMUSIC.utils.errors import capture_err
+import httpx 
 
 start_txt = """**
 ✪ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ✪
@@ -61,7 +63,7 @@ async def repo(_, message):
 
         text = f"""[CHANNEL](https://t.me/OP_CODEX) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/TEAM_CDX)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
-----------------
+ ---------------
 {list_of_users}"""
         await app.send_message(message.chat.id, text=text, disable_web_page_preview=True)
     else:
