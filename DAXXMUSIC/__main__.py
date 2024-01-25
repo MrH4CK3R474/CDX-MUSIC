@@ -50,7 +50,7 @@ async def init():
         pass
     await DAXX.decorators()
     LOGGER("DAXXMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗞𝗔𝗠𝗘𝗘𝗡𝗔𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "💞𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗗𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝗕𝘆 🕸️𝗞𝗔𝗠𝗘𝗘𝗡𝗔𝗔🕸️"
     )
     await idle()
     await app.stop()
