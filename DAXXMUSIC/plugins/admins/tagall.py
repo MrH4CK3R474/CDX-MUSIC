@@ -164,7 +164,7 @@ async def mentionall(client, message):
         mode = "text_on_reply"
         msg = message.reply_to_message
         if not msg:
-        return await message.reply("/gtag , /mgali hello 👈 𝐄𝐒𝐄 𝐋𝐈𝐊𝐇𝐎 𝐌𝐀𝐃𝐇𝐀𝐑𝐂𝐇𝐎𝐃 🍁")
+           return await message.reply("/gtag , /mgali hello 👈 𝐄𝐒𝐄 𝐋𝐈𝐊𝐇𝐎 𝐌𝐀𝐃𝐇𝐀𝐑𝐂𝐇𝐎𝐃 🍁")
     else:
         return await message.reply("/gtag , /mgali hello 👈 𝐄𝐒𝐄 𝐋𝐈𝐊𝐇𝐎 𝐌𝐀𝐃𝐇𝐀𝐑𝐂𝐇𝐎𝐃 🍁")
     if chat_id in spam_chats:
