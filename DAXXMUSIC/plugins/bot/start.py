@@ -39,7 +39,17 @@ YUMI_PICS = [
 "https://telegra.ph/file/79768149bf49df9511dcc.jpg",
 "https://telegra.ph/file/aad27c90297fb96030770.jpg",
 "https://telegra.ph/file/d1e6dd4ce208a651f0106.jpg",
-"https://telegra.ph/file/f85e89871eb80c91f8a87.jpg"
+"https://telegra.ph/file/f85e89871eb80c91f8a87.jpg",
+"https://telegra.ph/file/b5e995a997bbf8787845b.jpg",
+"https://telegra.ph/file/f8f6ca6d3204b10a11263.jpg",
+"https://telegra.ph/file/67388e44e238abe69a756.jpg",
+"https://telegra.ph/file/e473f322b69b2a6215010.jpg”,
+"https://telegra.ph/file/a20aecea75f0b13c21549.jpg",
+"https://telegra.ph/file/fc43c88f7b7f0f103f4dc.jpg",
+"https://telegra.ph/file/8e34e788275c7b1194887.jpg",
+"https://telegra.ph/file/0e2fd33c2898a11eff4fc.jpg",
+"https://telegra.ph/file/5eccb5d950a35f92f5561.jpg",
+"https://telegra.ph/file/a04b4a2e69f81f60c4599.jpg"
 
 ]
 
