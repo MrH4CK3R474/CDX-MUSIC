@@ -64,7 +64,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
     if (
         not member.new_chat_member
         and member.old_chat_member.status not in {
-            "banned", "left", "restricted"
+            "banned", "add", "restricted"
         }
         and member.old_chat_member
     ):
@@ -91,7 +91,7 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 profile_path=photo,
             )
         
-            caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
+            caption = f"**#New_Member_ADDED**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
             button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
 
             # Generate a deep link to open the user's profile
