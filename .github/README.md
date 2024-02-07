@@ -4,8 +4,7 @@
 
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋+𝗣𝗜𝗛𝗨+𝗠𝗨𝗦𝗜𝗖 +🖤+🥀"></b></h1>
 
-<p align="center"><a href="
-><img src="https://telegra.ph/file/7fd0f5f3a8b2cf70d5724.jpg" width="600"></a></p>
+<p align="center"><a href="https://t.me/"><img src="https://telegra.ph/file/7fd0f5f3a8b2cf70d5724.jpg" width="600"></a></p>
 
 > 🦋💗𝐓𝐇𝐈𝐒 𝐈𝐒 𝐓𝐇𝐄 𝐌𝐎𝐒𝐓 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐌𝐔𝐒𝐈𝐂 + 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓 🔥🥀
 
