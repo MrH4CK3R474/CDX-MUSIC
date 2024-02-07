@@ -134,12 +134,12 @@ async def greet_group(_, member: ChatMemberUpdated):
             caption=f"""
 **Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
 ➖➖➖➖➖➖➖➖➖➖➖➖
-Nᴀᴍᴇ ✧ {user.mention}
-Iᴅ ✧ {user.id}
-Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
+➪ Nᴀᴍᴇ:➻ {user.mention}
+➪ Iᴅ:➻ {user.id}
+➪ Usᴇʀɴᴀᴍᴇ:➻ @{user.username}
 ➖➖➖➖➖➖➖➖➖➖➖➖**
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/YumikooBot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"💞 𝗞𝗜𝗗𝗡𝗘𝗣  𝗠𝗘 💞", url=f"https://t.me/PIHU_ROBOT?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
@@ -158,8 +158,8 @@ async def bot_wel(_, message):
             await app.send_message(LOG_CHANNEL_ID, f"""
 **NEW GROUP
 ➖➖➖➖➖➖➖➖➖➖➖➖
-NAME: {message.chat.title}
-ID: {message.chat.id}
-USERNAME: @{message.chat.username}
+➪ Nᴀᴍᴇ:➻ {user.mention}
+➪ Iᴅ:➻ {user.id}
+➪ Usᴇʀɴᴀᴍᴇ:➻ @{user.username}
 ➖➖➖➖➖➖➖➖➖➖➖➖**
 """)
