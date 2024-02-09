@@ -6,7 +6,7 @@
 > 🦋💗𝐓𝐇𝐈𝐒 𝐈𝐒 𝐓𝐇𝐄 𝐌𝐎𝐒𝐓 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐌𝐔𝐒𝐈𝐂 + 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓 🔥🥀
 
 
-  ─「 ᎠᎬᏢᏞϴᎽ ϴΝ ᎻᎬᎡϴᏦႮ 」─      
+              ─「 ᎠᎬᏢᏞϴᎽ ϴΝ ᎻᎬᎡϴᏦႮ 」─      
   </h3>      
      <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/MrH4CK3R474/CDX-MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>      
 
